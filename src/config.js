@@ -1,6 +1,8 @@
 import { config } from "dotenv"
 
+
 config()
+export const PORT=process.env.PORT || 3000
 
 export const SECRET =  process.env.SECRETWORD
 export const BD_HOST = process.env.BD_HOST 

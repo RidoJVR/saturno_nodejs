@@ -4,6 +4,7 @@ import multer from 'multer';
 import folderRoutes from './routes/folderRoutes.js';
 import authRoutes from './routes/authRoutes.js'
 import cors from 'cors'
+
 const app = express();
 
 // Middlewares
